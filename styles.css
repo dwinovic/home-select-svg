@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+}
+
+body {
+  display: flex;
+  background-color: aquamarine;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  /* margin: 0 auto; */
+}
+
+.color-select-wrapper {
+  /* position: fixed; */
+  background-color: aqua;
+  position: relative;
+  margin-left: 30px;
+}
+
+.color-select-wrapper .box {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.border-select {
+  border: 2px solid red;
+}
+
+.color-select-wrapper .box:hover {
+  cursor: pointer;
+}
+
+.color-select-wrapper .box.yellow {
+  background-color: yellow;
+}
+
+.color-select-wrapper .box.green {
+  background-color: green;
+}
+
+.color-select-wrapper .box.blue {
+  background-color: blue;
+}
+
+
+/* SVG */
+
+.object:hover {
+  cursor: pointer;
+}
