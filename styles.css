@@ -4,7 +4,6 @@
 
 body {
   display: flex;
-  background-color: aquamarine;
   align-items: center;
   justify-content: center;
 }
@@ -15,7 +14,6 @@ body {
 
 .color-select-wrapper {
   /* position: fixed; */
-  background-color: aqua;
   position: relative;
   margin-left: 30px;
 }
@@ -51,4 +49,8 @@ body {
 
 .object:hover {
   cursor: pointer;
+}
+
+.yellow {
+  fill: yellow;
 }

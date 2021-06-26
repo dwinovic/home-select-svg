@@ -1,12 +1,17 @@
+let pickColor = '';
+
 const changeColor = (id) => {
-  console.log(id);
+  pickColor = id;
+  console.log(pickColor);
 };
-// document.getElementsByClassName('object').addEventListener('click', testLog);
 
 const testLog = () => {
   console.log('Connect');
 };
 
 const selectColor = (id) => {
+  const getNewColor = pickColor;
+  const newColor = document.getElementById(`${id}`);
+  newColor.className += ` ${getNewColor}`;
   console.log(id);
 };
