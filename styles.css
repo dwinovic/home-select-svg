@@ -49,6 +49,7 @@ body {
 
 .object:hover {
   cursor: pointer;
+  fill: #ff31382d;
 }
 
 .yellow {
