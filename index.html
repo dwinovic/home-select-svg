@@ -1,22 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Select</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Home Select</title>
-  <link rel="stylesheet" href="/styles.css" />
-  <style></style>
-</head>
-
-<body>
-  <div class="content">
-    <svg width="904" height="1280" viewBox="0 0 904 1280" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <body>
+    <div class="content">
+      <svg
+        width="904"
+        height="1280"
+        viewBox="0 0 904 1280"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+      >
         <rect width="904" height="1280" fill="url(#pattern0)" />
         <rect
+          data-bs-toggle="modal"
+          data-bs-target="#modal"
           id="1"
-          onclick="selectColor(this.id)"
+          onclick="selectItem(this.id)"
           x="247"
           y="365"
           width="25"
@@ -27,8 +45,10 @@
           class="object"
         />
         <rect
+          data-bs-toggle="modal"
+          data-bs-target="#modal"
           id="2"
-          onclick="selectColor(this.id)"
+          onclick="selectItem(this.id)"
           x="247"
           y="419"
           width="25"
@@ -39,8 +59,10 @@
           class="object"
         />
         <rect
+          data-bs-toggle="modal"
+          data-bs-target="#modal"
           id="3"
-          onclick="selectColor(this.id)"
+          onclick="selectItem(this.id)"
           x="247"
           y="609"
           width="25"
@@ -51,8 +73,10 @@
           class="object"
         />
         <rect
+          data-bs-toggle="modal"
+          data-bs-target="#modal"
           id="4"
-          onclick="selectColor(this.id)"
+          onclick="selectItem(this.id)"
           x="289"
           y="609"
           width="25"
@@ -63,8 +87,10 @@
           class="object"
         />
         <rect
+          data-bs-toggle="modal"
+          data-bs-target="#modal"
           id="5"
-          onclick="selectColor(this.id)"
+          onclick="selectItem(this.id)"
           x="332"
           y="608"
           width="25"
@@ -75,8 +101,10 @@
           class="object"
         />
         <rect
+          data-bs-toggle="modal"
+          data-bs-target="#modal"
           id="6"
-          onclick="selectColor(this.id)"
+          onclick="selectItem(this.id)"
           x="374"
           y="608"
           width="25"
@@ -87,8 +115,10 @@
           class="object"
         />
         <rect
+          data-bs-toggle="modal"
+          data-bs-target="#modal"
           id="7"
-          onclick="selectColor(this.id)"
+          onclick="selectItem(this.id)"
           x="419"
           y="609"
           width="25"
@@ -99,8 +129,10 @@
           class="object"
         />
         <rect
+          data-bs-toggle="modal"
+          data-bs-target="#modal"
           id="8"
-          onclick="selectColor(this.id)"
+          onclick="selectItem(this.id)"
           x="247"
           y="663"
           width="25"
@@ -111,8 +143,10 @@
           class="object"
         />
         <rect
+          data-bs-toggle="modal"
+          data-bs-target="#modal"
           id="9"
-          onclick="selectColor(this.id)"
+          onclick="selectItem(this.id)"
           x="234"
           y="857"
           width="27"
@@ -123,8 +157,10 @@
           class="object"
         />
         <rect
+          data-bs-toggle="modal"
+          data-bs-target="#modal"
           id="10"
-          onclick="selectColor(this.id)"
+          onclick="selectItem(this.id)"
           x="268"
           y="857"
           width="27"
@@ -135,8 +171,10 @@
           class="object"
         />
         <rect
+          data-bs-toggle="modal"
+          data-bs-target="#modal"
           id="11"
-          onclick="selectColor(this.id)"
+          onclick="selectItem(this.id)"
           x="362"
           y="858"
           width="24"
@@ -147,8 +185,10 @@
           class="object"
         />
         <rect
+          data-bs-toggle="modal"
+          data-bs-target="#modal"
           id="12"
-          onclick="selectColor(this.id)"
+          onclick="selectItem(this.id)"
           x="390"
           y="858"
           width="24"
@@ -159,8 +199,10 @@
           class="object"
         />
         <rect
+          data-bs-toggle="modal"
+          data-bs-target="#modal"
           id="13"
-          onclick="selectColor(this.id)"
+          onclick="selectItem(this.id)"
           x="305"
           y="860"
           width="24"
@@ -171,8 +213,10 @@
           class="object"
         />
         <rect
+          data-bs-toggle="modal"
+          data-bs-target="#modal"
           id="14"
-          onclick="selectColor(this.id)"
+          onclick="selectItem(this.id)"
           x="331"
           y="860"
           width="24"
@@ -183,8 +227,10 @@
           class="object"
         />
         <rect
+          data-bs-toggle="modal"
+          data-bs-target="#modal"
           id="15"
-          onclick="selectColor(this.id)"
+          onclick="selectItem(this.id)"
           x="423"
           y="857"
           width="21"
@@ -195,8 +241,10 @@
           class="object"
         />
         <rect
+          data-bs-toggle="modal"
+          data-bs-target="#modal"
           id="16"
-          onclick="selectColor(this.id)"
+          onclick="selectItem(this.id)"
           x="451"
           y="857"
           width="22"
@@ -207,8 +255,10 @@
           class="object"
         />
         <rect
+          data-bs-toggle="modal"
+          data-bs-target="#modal"
           id="17"
-          onclick="selectColor(this.id)"
+          onclick="selectItem(this.id)"
           x="509"
           y="858"
           width="22"
@@ -219,8 +269,10 @@
           class="object"
         />
         <rect
+          data-bs-toggle="modal"
+          data-bs-target="#modal"
           id="18"
-          onclick="selectColor(this.id)"
+          onclick="selectItem(this.id)"
           x="537"
           y="858"
           width="22"
@@ -231,8 +283,10 @@
           class="object"
         />
         <rect
+          data-bs-toggle="modal"
+          data-bs-target="#modal"
           id="19"
-          onclick="selectColor(this.id)"
+          onclick="selectItem(this.id)"
           x="566"
           y="858"
           width="22"
@@ -243,8 +297,10 @@
           class="object"
         />
         <rect
+          data-bs-toggle="modal"
+          data-bs-target="#modal"
           id="20"
-          onclick="selectColor(this.id)"
+          onclick="selectItem(this.id)"
           x="597"
           y="858"
           width="23"
@@ -255,8 +311,10 @@
           class="object"
         />
         <rect
+          data-bs-toggle="modal"
+          data-bs-target="#modal"
           id="21"
-          onclick="selectColor(this.id)"
+          onclick="selectItem(this.id)"
           x="624"
           y="858"
           width="23"
@@ -267,8 +325,10 @@
           class="object"
         />
         <rect
+          data-bs-toggle="modal"
+          data-bs-target="#modal"
           id="22"
-          onclick="selectColor(this.id)"
+          onclick="selectItem(this.id)"
           x="654"
           y="858"
           width="23"
@@ -279,8 +339,10 @@
           class="object"
         />
         <rect
+          data-bs-toggle="modal"
+          data-bs-target="#modal"
           id="23"
-          onclick="selectColor(this.id)"
+          onclick="selectItem(this.id)"
           x="682"
           y="858"
           width="23"
@@ -291,8 +353,10 @@
           class="object"
         />
         <rect
+          data-bs-toggle="modal"
+          data-bs-target="#modal"
           id="24"
-          onclick="selectColor(this.id)"
+          onclick="selectItem(this.id)"
           x="481"
           y="858"
           width="22"
@@ -303,8 +367,10 @@
           class="object"
         />
         <rect
+          data-bs-toggle="modal"
+          data-bs-target="#modal"
           id="25"
-          onclick="selectColor(this.id)"
+          onclick="selectItem(this.id)"
           x="289"
           y="663"
           width="25"
@@ -315,8 +381,10 @@
           class="object"
         />
         <rect
+          data-bs-toggle="modal"
+          data-bs-target="#modal"
           id="26"
-          onclick="selectColor(this.id)"
+          onclick="selectItem(this.id)"
           x="331"
           y="663"
           width="25"
@@ -327,8 +395,10 @@
           class="object"
         />
         <rect
+          data-bs-toggle="modal"
+          data-bs-target="#modal"
           id="27"
-          onclick="selectColor(this.id)"
+          onclick="selectItem(this.id)"
           x="373"
           y="663"
           width="25"
@@ -339,8 +409,10 @@
           class="object"
         />
         <rect
+          data-bs-toggle="modal"
+          data-bs-target="#modal"
           id="28"
-          onclick="selectColor(this.id)"
+          onclick="selectItem(this.id)"
           x="419"
           y="663"
           width="25"
@@ -351,8 +423,10 @@
           class="object"
         />
         <rect
+          data-bs-toggle="modal"
+          data-bs-target="#modal"
           id="29"
-          onclick="selectColor(this.id)"
+          onclick="selectItem(this.id)"
           x="290"
           y="365"
           width="25"
@@ -363,8 +437,10 @@
           class="object"
         />
         <rect
+          data-bs-toggle="modal"
+          data-bs-target="#modal"
           id="30"
-          onclick="selectColor(this.id)"
+          onclick="selectItem(this.id)"
           x="290"
           y="419"
           width="25"
@@ -375,8 +451,10 @@
           class="object"
         />
         <rect
+          data-bs-toggle="modal"
+          data-bs-target="#modal"
           id="31"
-          onclick="selectColor(this.id)"
+          onclick="selectItem(this.id)"
           x="333"
           y="365"
           width="25"
@@ -387,8 +465,10 @@
           class="object"
         />
         <rect
+          data-bs-toggle="modal"
+          data-bs-target="#modal"
           id="32"
-          onclick="selectColor(this.id)"
+          onclick="selectItem(this.id)"
           x="332"
           y="419"
           width="25"
@@ -399,8 +479,10 @@
           class="object"
         />
         <rect
+          data-bs-toggle="modal"
+          data-bs-target="#modal"
           id="33"
-          onclick="selectColor(this.id)"
+          onclick="selectItem(this.id)"
           x="375"
           y="364"
           width="25"
@@ -411,8 +493,10 @@
           class="object"
         />
         <rect
+          data-bs-toggle="modal"
+          data-bs-target="#modal"
           id="34"
-          onclick="selectColor(this.id)"
+          onclick="selectItem(this.id)"
           x="374"
           y="418"
           width="25"
@@ -423,8 +507,10 @@
           class="object"
         />
         <rect
+          data-bs-toggle="modal"
+          data-bs-target="#modal"
           id="35"
-          onclick="selectColor(this.id)"
+          onclick="selectItem(this.id)"
           x="419"
           y="364"
           width="25"
@@ -435,8 +521,10 @@
           class="object"
         />
         <rect
+          data-bs-toggle="modal"
+          data-bs-target="#modal"
           id="36"
-          onclick="selectColor(this.id)"
+          onclick="selectItem(this.id)"
           x="419"
           y="418"
           width="25"
@@ -466,14 +554,88 @@
           />
         </defs>
       </svg>
-  </div>
-  <div class="color-select-wrapper">
-    <div class="box yellow" id="yellow" onclick="changeColor(id)"></div>
-    <div class="box green" id="green" onclick="changeColor(id)"></div>
-    <div class="box blue" id="blue" onclick="changeColor(id)"></div>
-  </div>
+      <div class="color-select-wrapper">
+        <div class="box yellow" id="yellow" onclick="changeColor(id)"></div>
+        <div class="box green" id="green" onclick="changeColor(id)"></div>
+        <div class="box blue" id="blue" onclick="changeColor(id)"></div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="modal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Change Color</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="box-wrapper">
+              <div class="color yellow">
+                <input
+                  type="checkbox"
+                  alt="booking"
+                  name="check-color"
+                  id="yellow"
+                  onclick="onlyOne(this)"
+                />
+              </div>
+              <p>Booking</p>
+            </div>
+            <div class="box-wrapper">
+              <div class="color red">
+                <input
+                  type="checkbox"
+                  alt="booked"
+                  name="check-color"
+                  id="red"
+                  onclick="onlyOne(this)"
+                />
+              </div>
+              <p>Booked</p>
+            </div>
+            <div class="box-wrapper">
+              <div class="color green">
+                <input
+                  alt="available"
+                  type="checkbox"
+                  name="check-color"
+                  id="green"
+                  onclick="onlyOne(this)"
+                />
+              </div>
+              <p>Available</p>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button
+              type="button"
+              class="btn btn-primary"
+              onclick="changeColor()"
+            >
+              Change Color
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
 
-  <script src="./script.js"></script>
-</body>
-
+    <script src="./script.js"></script>
+  </body>
 </html>
